@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping.dtd">
+
+	<hibernate-mapping>
+<class name="Mobile.model.Mobilem" table="Mobile_models">
+    <id name="id" column="Student_id">
+ <generator class="native"></generator>
+ </id>
+ 
+<property name="mmodel" column="Model_name" type="string"></property>
+<property name="price" column="Price" type="string"></property>
+</class>
+</hibernate-mapping>     
